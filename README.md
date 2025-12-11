@@ -150,18 +150,6 @@ p.red {
 
 Comments in CSS is text which is not parsed and is thus ignored.
 
------
-
-### Chapter 1 - Practice Set
-
-1.  Create a website with a class `.red` `div` which has a background color of red and color white. 
-2.  Create an element with id `head` and verify that background color works on it as inline, external as well as using style tag CSS.
-3.  Create a css class `.one` and verify that it works on multiple elements. 
-4.  Create multiple CSS classes and verify that all of these work on the same element. 
-5.  Have a look at the MDN CSS reference and try to play around with few key-value CSS rules. 
-
------
-
 ## Chapter 2 - Colors & Backgrounds
 
 **Chapter 2 - Colors & Backgrounds** 
@@ -232,8 +220,6 @@ Can be following:
   * `{{width}}`: Set width & height will be set automatically 
 -----
 
-**Classmate | Date | Page [cite: 181-182]**
-
   * `{{width}} {{height}}`: set width & height 
 
 **Note:** Always check the MDN docs to dissect a given CSS property. Remember, practice will make you perfect. 
@@ -245,8 +231,6 @@ div {
   background-position: left top;
 }
 ```
-
-[cite: 186-188]
 
 ### The background-attachment property
 
@@ -277,18 +261,6 @@ div3 {
   * `right top` -\> Position 
 
 One of the properties can be missing given the others are in order.
-
------
-
-### Chapter 2 - Practice Set
-
-1.  Create a dark blue navigation bar with light color items. 
-2.  Change the color of the main container on your page to dark red. 
-3.  Create a `div` and add a background image with given width and height. 
-4.  Create a vertical box and add a fixed non-scrolling background to it. 
-5.  Verify that the background shorthand property works with some of the values skipped.
-
------
 
 ## Chapter 3 - CSS Box Model
 
@@ -420,16 +392,6 @@ Determines what out of padding and border is included in elements width and heig
     }
     ```
     The content width and height includes **Content + padding + border**.
------
-
-### Chapter 3 - Practice Set
-
-1.  Create a website layout. Add a header box, 1 Content box and one footer. 
-2.  Add borders & margins to 1. 
-3.  Did the margin collapse between Content box & footer?
-4.  Add the `box-sizing` property to content box. What changes did you notice? 
-
------
 
 ## Chapter 4 - Fonts & Display
 
@@ -527,21 +489,6 @@ Just like when we say fruit, it can be any fruit. When we say Serif it can be an
   * `font-family` -\> Specific
   * `Generic family` -\> Generic 
 
------
-
-### Chapter 4 - Practice Set
-
-1.  Create the following website layout:
-      * Black navbar
-      * red div 
-      * green div 
-2.  Add a footer with Google font "Ballu Bhai" to 1. 
-3.  Remove the underlines from links in 1.
-4.  Demonstrate the difference between `display: none` and `visibility: hidden` using a div. 
-5.  Change the footer to all uppercase in 1.
-
------
-
 ## Chapter 5 - Size, Position & Lists
 
 
@@ -618,17 +565,6 @@ It defines which layer will be above which in Case of overlapping elements.
 
 (Z is the third dimension)
 
------
-
-### Chapter 5 - Practice Set
-
-1.  Create a responsive navbar using relative lengths.
-2.  Create a sticky navbar using position property.
-3.  Demonstrate the use of `list-style` property using a `ul` as example.
-4.  Demonstrate the use of `z-index` Using an example.
-
------
-
 ## Chapter 6 - Flexbox
 
 Before we look into the CSS flexbox, we will look into float and clear properties.
@@ -696,21 +632,6 @@ Following are the properties for the flex children:
 -----
 
 4.  `flex-shrink`: specifies how much a flex item will shrink relative to the rest of the flex items. 
-
------
-
-### Chapter 6 - Practice Set
-
-1.  Create a layout of your choice using float. 
-2.  Create the same layout in 1 using flexbox. 
-3.  Create the following navigation bar using flexbox: 
-    `[ Div1 ] [ Home About Contact ] [ Div2 ]` 
-4.  Create the following layout using flexbox: 
-      * Bg-Image 
-      * Home about contact 
-      * Some background Image 
-
------
 
 ## Chapter 7 - CSS Grid & Media Queries
 
@@ -797,16 +718,6 @@ Used to apply css only when a certain condition is true.
   }
 }
 ```
-
------
-
-### Chapter 7 - Practice Set
-
-1.  Create a header with content using CSS grid.
-2.  Create the layouts created in Chapter 6 - Practice Set using Css grid. 
-3.  Create a webpage which is green on large devices, red on small devices & yellow on small (intermediate) devices. 
-
------
 
 ## Chapter 8 - Transforms, Transitions & Animations
 
@@ -932,17 +843,6 @@ We can use % values to indicate what should happen when a certain percent of ani
 ```
 
 (Can add as many intermediate properties as possible)
-
------
-
-### Chapter 8 - Practice Set
-
-1.  Create a thin progress bar animation for a website. 
-2.  Create the same progress bar using transition. 
-3.  Create a rotating image animation using CSS. 
-4.  Create a slider with 3 images using CSS. 
-
------
 
 ### Project 1 - E Commerce Website
 
